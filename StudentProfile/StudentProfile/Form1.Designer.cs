@@ -46,10 +46,10 @@
             // lblcontactNumber
             // 
             lblcontactNumber.AutoSize = true;
-            lblcontactNumber.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblcontactNumber.Font = new Font("Arial Narrow", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblcontactNumber.Location = new Point(233, 70);
             lblcontactNumber.Name = "lblcontactNumber";
-            lblcontactNumber.Size = new Size(270, 25);
+            lblcontactNumber.Size = new Size(229, 23);
             lblcontactNumber.TabIndex = 1;
             lblcontactNumber.Text = "Contact Number: 09171234567";
             // 
