@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             lblstudentProfile = new Label();
+            lblcontactNumber = new Label();
             SuspendLayout();
             // 
             // lblstudentProfile
@@ -42,11 +43,22 @@
             lblstudentProfile.Text = "Student Profile - GitHub-Beginner-Lab";
             lblstudentProfile.Click += label1_Click;
             // 
+            // lblcontactNumber
+            // 
+            lblcontactNumber.AutoSize = true;
+            lblcontactNumber.Font = new Font("Arial Narrow", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblcontactNumber.Location = new Point(233, 70);
+            lblcontactNumber.Name = "lblcontactNumber";
+            lblcontactNumber.Size = new Size(229, 23);
+            lblcontactNumber.TabIndex = 1;
+            lblcontactNumber.Text = "Contact Number: 09171234567";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 164);
+            Controls.Add(lblcontactNumber);
             Controls.Add(lblstudentProfile);
             Name = "Form1";
             Text = "Form1";
@@ -57,5 +69,6 @@
         #endregion
 
         private Label lblstudentProfile;
+        private Label lblcontactNumber;
     }
 }
