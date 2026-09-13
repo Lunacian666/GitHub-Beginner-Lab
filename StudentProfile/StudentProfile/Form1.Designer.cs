@@ -37,9 +37,9 @@
             lblstudentProfile.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblstudentProfile.Location = new Point(231, 27);
             lblstudentProfile.Name = "lblstudentProfile";
-            lblstudentProfile.Size = new Size(307, 25);
+            lblstudentProfile.Size = new Size(335, 25);
             lblstudentProfile.TabIndex = 0;
-            lblstudentProfile.Text = "Student Profile - Jeremy Kobi Butor";
+            lblstudentProfile.Text = "Student Profile - GitHub-Beginner-Lab";
             lblstudentProfile.Click += label1_Click;
             // 
             // Form1
